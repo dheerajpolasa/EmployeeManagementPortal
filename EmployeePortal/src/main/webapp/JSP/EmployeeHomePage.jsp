@@ -76,15 +76,13 @@
 							<i class="fa fa-arrow-right" aria-hidden="true"></i>
 
 						</div>
-						<div class="label">Sears</div>
+						<div class="label">Dheeraj Polasa</div>
 					</div>
 					<div class="grid-overlay">
 						<div class="overlay-content-wrapper">
 
-							<div class="overlay-header">Sears</div>
+							<div class="overlay-header">Dheeraj Polasa</div>
 							<div class="overlay-label">
-								<img src="<%=request.getContextPath()%>/Pictures/sears.jpg"
-									style="width: 5em; height: 5em;">
 							</div>
 						</div>
 					</div>
@@ -105,15 +103,13 @@
 							<i class="fa fa-arrow-left" aria-hidden="true"></i>
 
 						</div>
-						<div class="label">Kmart</div>
+						<div class="label">Dheeraj Polasa</div>
 					</div>
 					<div class="grid-overlay">
 						<div class="overlay-content-wrapper">
 
-							<div class="overlay-header">Kmart</div>
+							<div class="overlay-header">Dheeraj Polasa</div>
 							<div class="overlay-label">
-								<img src="<%=request.getContextPath()%>/Pictures/download.png"
-									style="width: 5em; height: 5em;">
 							</div>
 						</div>
 					</div>
@@ -126,7 +122,7 @@
 				<div class="foot-content">
 					<div class='dheeraj'>
 						Made with <i class="fa fa-heart" aria-hidden="true"></i> in India
-						by SHI..!
+						by Dheeraj Polasa..!
 					</div>
 
 				</div>
