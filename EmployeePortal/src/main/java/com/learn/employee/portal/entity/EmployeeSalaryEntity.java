@@ -6,18 +6,18 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "EmployeesSalaryDetails")
+@Table(name = "")
 public class EmployeeSalaryEntity {
 	@Id
-	@Column(name = "emp_id")
+	@Column(name = "")
 	int empId;
-	@Column(name = "HRA")
+	@Column(name = ")
 	int houseRentAllowance;
-	@Column(name = "TRAVEL_ALLOWANCE")
+	@Column(name = "")
 	int travelAllowance;
-	@Column(name = "MEDICAL_ALLOWANCE")
+	@Column(name = "")
 	int medicalAllowance;
-	@Column(name = "BASIC_SALARY")
+	@Column(name = "")
 	int basicSalary;
 
 	/**
