@@ -1,0 +1,36 @@
+@CHARSET "ISO-8859-1";
+* {
+  box-sizing: border-box;
+}
+h1 { font-family: Georgia, Times, "Times New Roman", serif; font-size: 30px; font-style: italic; font-variant: normal; font-weight: 700; line-height: 60px;}
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 30px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.wrapper {
+  display: grid;
+}
+
+.wrapper {
+  border: 2px solid #c5cde5;
+  border-radius: 5px;
+  background-color: #c5cde5 ;
+}
+
+.wrapper > div {
+  border: 2px solid #c5cde5;
+  border-radius: 5px;
+  background-color: #dbe4ff;
+  padding: 1em;
+  color: #d9480f;
+}
