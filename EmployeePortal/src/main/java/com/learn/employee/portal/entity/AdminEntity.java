@@ -6,12 +6,12 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "adminDetails")
+@Table(name = "")
 public class AdminEntity {
 	@Id
-	@Column(name = "admin_ID")
+	@Column(name = "")
 	String adminID;
-	@Column(name = "admin_password")
+	@Column(name = "")
 	String adminPassword;
 
 	/**
