@@ -8,23 +8,23 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "EmployeeTable")
+@Table(name = "")
 public class EmployeeEntity {
 	@Id
-	@Column(name = "emp_id")
+	@Column(name = "")
 	int empId;
-	@Column(name = "first_name")
+	@Column(name = "")
 	String employeeFirstName;
-	@Column(name = "last_name")
+	@Column(name = "")
 	String employeeLastName;
-	@Column(name = "blood_group")
+	@Column(name = "")
 	String bloodGroup;
-	@Column(name = "dob")
+	@Column(name = "")
 	String dateOfBirth;
-	@Column(name = "age")
+	@Column(name = "")
 	int age;
 	@OneToOne
-	@JoinColumn(name = "emp_id")
+	@JoinColumn(name = "") //Give the emp_id column in here
 	EmployeeSalaryEntity empSalList;
 
 	/**
