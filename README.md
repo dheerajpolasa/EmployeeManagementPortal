@@ -4,3 +4,4 @@ This WebApplication is for internal working of a company, and the project is sti
 features to the project.
 
 If you want to use this code, then please make sure you enter your database details in the persistence.xml file. 
+The path of persistence.xml is EmployeePortal->src/main->resources->META-INF->persistence.xml
